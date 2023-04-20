@@ -1,9 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T02:44:54.850Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.2.0" etag="Sri5403IVAEH9C3PdBNk" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T06:08:59.137Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="2rczlQxVeiqZ6hiVVhYJ" version="21.2.0" type="github">
   <diagram name="第 1 页" id="s0Ts2Dvs9fdIP7DHyABV">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-2" target="EfQJjlZ0cWJ7oEWsES76-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-2" value="启动app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-3" target="EfQJjlZ0cWJ7oEWsES76-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-3" value="MainActivity&lt;br&gt;首页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-5" target="EfQJjlZ0cWJ7oEWsES76-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-5" value="UpdateWebPackageManager&lt;br&gt;getUpdateVersionWebPackage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-7" target="EfQJjlZ0cWJ7oEWsES76-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-11" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EfQJjlZ0cWJ7oEWsES76-10">
+          <mxGeometry x="-0.0824" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-7" target="EfQJjlZ0cWJ7oEWsES76-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-14" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EfQJjlZ0cWJ7oEWsES76-13">
+          <mxGeometry x="-0.3463" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-7" target="EfQJjlZ0cWJ7oEWsES76-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-7" value="asset中版本号是否大于最新资源版本号" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="352.5" width="130" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-9" value="删除本sd卡数据，资源路径设置为asset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-12" target="EfQJjlZ0cWJ7oEWsES76-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-12" value="请求接口获取最新资源信息，版本，地址，大小，md5等" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-15" target="EfQJjlZ0cWJ7oEWsES76-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-15" value="下载资源" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-17" target="EfQJjlZ0cWJ7oEWsES76-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-17" value="验证md5并解压资源" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-19" value="保存资源路径并删除压缩包" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-54" value="这里首次进入时，最新资源就是asset中资源，所以相等，也会走否的逻辑去下载" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="365" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
