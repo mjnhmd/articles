@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T06:53:33.582Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uQTS5Gvr6G9_lgGoCFl_" version="21.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T07:00:51.820Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="tf_vwJEISvRDROt3506_" version="21.2.0" type="github">
   <diagram name="第 1 页" id="ZK88UVMB1HDC939iwD2s">
     <mxGraphModel dx="1242" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,47 +10,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Gd3Ls4hgWF7xRM4VJvra-2" value="启动app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gd3Ls4hgWF7xRM4VJvra-6" target="Gd3Ls4hgWF7xRM4VJvra-12">
+        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gd3Ls4hgWF7xRM4VJvra-6" target="Gd3Ls4hgWF7xRM4VJvra-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gd3Ls4hgWF7xRM4VJvra-6" value="启动资源更新工具" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="280" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gd3Ls4hgWF7xRM4VJvra-12" target="Gd3Ls4hgWF7xRM4VJvra-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-8" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gd3Ls4hgWF7xRM4VJvra-7">
-          <mxGeometry x="-0.0824" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gd3Ls4hgWF7xRM4VJvra-12" target="Gd3Ls4hgWF7xRM4VJvra-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gd3Ls4hgWF7xRM4VJvra-9">
-          <mxGeometry x="-0.3463" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-12" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="352.5" width="130" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-13" value="删除本sd卡数据，资源路径设置为asset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="375" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gd3Ls4hgWF7xRM4VJvra-15" target="Gd3Ls4hgWF7xRM4VJvra-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-15" value="请求接口获取最新资源信息，版本，地址，大小，md5等" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="490" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Gd3Ls4hgWF7xRM4VJvra-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gd3Ls4hgWF7xRM4VJvra-17" target="Gd3Ls4hgWF7xRM4VJvra-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gd3Ls4hgWF7xRM4VJvra-17" value="下载资源" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gd3Ls4hgWF7xRM4VJvra-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gd3Ls4hgWF7xRM4VJvra-19" target="Gd3Ls4hgWF7xRM4VJvra-20">
           <mxGeometry relative="1" as="geometry" />
@@ -59,7 +31,7 @@
           <mxGeometry x="310" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gd3Ls4hgWF7xRM4VJvra-20" value="保存资源路径并删除压缩包" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gd3Ls4hgWF7xRM4VJvra-23" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gd3Ls4hgWF7xRM4VJvra-22" target="Gd3Ls4hgWF7xRM4VJvra-6">
           <mxGeometry relative="1" as="geometry">
@@ -68,6 +40,23 @@
         </mxCell>
         <mxCell id="Gd3Ls4hgWF7xRM4VJvra-22" value="启动对应功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gd3Ls4hgWF7xRM4VJvra-24" target="Gd3Ls4hgWF7xRM4VJvra-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-24" value="请求静态资源信息，版本号，大小，下载地址，md5等" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gd3Ls4hgWF7xRM4VJvra-29" target="Gd3Ls4hgWF7xRM4VJvra-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-35" value="需要更新" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Gd3Ls4hgWF7xRM4VJvra-34">
+          <mxGeometry x="-0.6" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gd3Ls4hgWF7xRM4VJvra-29" value="和本地版本号对比" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="450" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
