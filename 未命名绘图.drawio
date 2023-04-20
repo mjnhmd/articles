@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T06:08:59.137Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="2rczlQxVeiqZ6hiVVhYJ" version="21.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T06:23:52.588Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="mLkANHiU8G2m9jI4OgYF" version="21.2.0" type="github">
   <diagram name="第 1 页" id="s0Ts2Dvs9fdIP7DHyABV">
     <mxGraphModel dx="1242" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,6 +67,110 @@
         </mxCell>
         <mxCell id="EfQJjlZ0cWJ7oEWsES76-19" value="保存资源路径并删除压缩包" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-21" target="EfQJjlZ0cWJ7oEWsES76-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-21" value="打开练习题" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="117.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-22" target="EfQJjlZ0cWJ7oEWsES76-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-22" value="请求题目列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-24" target="EfQJjlZ0cWJ7oEWsES76-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-33" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EfQJjlZ0cWJ7oEWsES76-27">
+          <mxGeometry x="-0.2667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-29" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-24" target="EfQJjlZ0cWJ7oEWsES76-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-24" value="是否有本地资源" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="265" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-26" target="EfQJjlZ0cWJ7oEWsES76-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="360" />
+              <mxPoint x="1060" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-26" value="使用asset资源" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-28" target="EfQJjlZ0cWJ7oEWsES76-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="360" />
+              <mxPoint x="1060" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-28" value="删除掉其他资源" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-30" target="EfQJjlZ0cWJ7oEWsES76-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-30" value="加载本地url打开网页" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-34" target="EfQJjlZ0cWJ7oEWsES76-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-34" value="接收js消息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-41" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-38" target="EfQJjlZ0cWJ7oEWsES76-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-46" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-38" target="EfQJjlZ0cWJ7oEWsES76-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-38" value="本地路径是否存在资源" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-40" value="调用js方法通知前端使用本地资源" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-45" target="EfQJjlZ0cWJ7oEWsES76-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-45" value="下载资源到本地" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-47" target="EfQJjlZ0cWJ7oEWsES76-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-50" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EfQJjlZ0cWJ7oEWsES76-49">
+          <mxGeometry x="-0.3641" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EfQJjlZ0cWJ7oEWsES76-47" target="EfQJjlZ0cWJ7oEWsES76-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-53" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EfQJjlZ0cWJ7oEWsES76-52">
+          <mxGeometry x="-0.4222" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-47" value="下载成功" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EfQJjlZ0cWJ7oEWsES76-51" value="通知前端加载远端url" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EfQJjlZ0cWJ7oEWsES76-54" value="这里首次进入时，最新资源就是asset中资源，所以相等，也会走否的逻辑去下载" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="365" width="120" height="80" as="geometry" />
